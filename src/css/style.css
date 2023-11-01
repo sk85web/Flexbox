@@ -32,6 +32,15 @@
   max-width: 100px;
 }
 
+.wrapper_five {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.wrapper_five span {
+  max-width: 100px;
+}
+
 span {
   padding: 10px;
 }
