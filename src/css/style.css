@@ -2,13 +2,21 @@
   max-width: 700px;
   margin: 30px auto;
   display: flex;
-  justify-content: space-between;
+
   background-color: #2696e8;
   border: 1px solid #2696e8;
+}
+.wrapper_one {
+  justify-content: space-between;
 }
 
 .wrapper_two {
   flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.wrapper_three {
+  justify-content: center;
 }
 
 span {
@@ -20,10 +28,14 @@ a {
   color: #fff;
 }
 
-a:hover {
-  color: #2696e8;
+.wrapper_three span {
+  max-width: 100px;
 }
-span:hover {
+/* a:hover {
+  color: #2696e8;
+} */
+span:hover,
+span:hover a {
   color: #2696e8;
   background-color: #fff;
 }
