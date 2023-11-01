@@ -1,3 +1,6 @@
+body {
+  box-sizing: border-box;
+}
 .wrapper {
   max-width: 700px;
   margin: 30px auto;
@@ -64,4 +67,19 @@ span:hover,
 span:hover a {
   color: #2696e8;
   background-color: #fff;
+}
+
+.wrap {
+  max-width: 375px;
+  border: 1px solid purple;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.square {
+  margin: 5px;
+  border: 1px solid purple;
+  height: 50px;
+  width: 50px;
 }
