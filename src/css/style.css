@@ -41,6 +41,16 @@
   max-width: 100px;
 }
 
+.wrapper_six {
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.wrapper_six span {
+  max-width: 100px;
+}
+
 span {
   padding: 10px;
 }
