@@ -7,6 +7,10 @@
   border: 1px solid #2696e8;
 }
 
+.wrapper_two {
+  flex-direction: row-reverse;
+}
+
 span {
   padding: 10px;
 }
