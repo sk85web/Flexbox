@@ -170,6 +170,10 @@ span:hover a {
   font-weight: 400;
 }
 
+.work__content-link:hover {
+  color: #bb5b20;
+}
+
 .section__btn {
   color: #e27b3a;
   padding: 12px 30px;
